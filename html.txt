@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to our website!</h1>
+    <p>This is a simple example of a responsive website using relative values and media queries.</p>
+  </header>
+
+  <main class="container">
+
+    <div class="box-container">
+      <div class="box box-1">
+        <img src="box-image.jpg" alt="colorful geometric shapes">
+        <h2>Box 1</h2>
+        <p>Responsive box layout with relative units.</p>
+      </div>
+      <div class="box box-2">
+        <img src="box-image.jpg" alt="colorful geometric shapes">
+        <h2>Box 2</h2>
+        <p>Resize the window to see how it adapts!</p>
+      </div>
+      <div class="box box-3">
+        <img src="box-image.jpg" alt="colorful geometric shapes">
+        <h2>Box 3</h2>
+        <p>All elements are flexible and adaptive.</p>
+      </div>
+    </div>
+
+    <div class="widget-container">
+      <!-- Map Widget -->
+      <div class="widget map-widget">
+        <h2>Rosebank College Campus</h2>
+        <a href="https://www.google.com/maps/place/Rosebank+College" target="_blank">
+          View larger map
+        </a>
+      </div>
+
+      <!-- Newsletter Widget with Form -->
+      <div class="widget newsletter-widget">
+        <h2>Receive Newsletter</h2>
+        <form>
+          <label for="name">First Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="surname">Surname:</label><br>
+          <input type="text" id="surname" name="surname" required><br><br>
+
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone" required><br><br>
+
+          <label for="email">Email Address:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <button type="submit">Sign In</button>
+        </form>
+      </div>
+    </div>
+
+  </main>
+
+</body>
+</html>
